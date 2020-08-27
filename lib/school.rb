@@ -25,7 +25,6 @@ class School
   
   def sort 
     @roster = @roster.sort.to_h
-    names = @roster.values
     names.sort 
   end
 end
